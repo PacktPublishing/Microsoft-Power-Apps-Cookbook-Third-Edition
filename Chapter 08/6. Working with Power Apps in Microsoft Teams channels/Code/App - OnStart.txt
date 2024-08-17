@@ -1,0 +1,32 @@
+Set(
+    ThemeDefault,
+    {
+        MainColor: ColorValue("#464775"),
+        AppBackground: ColorValue("#F5F5F5"),
+        Background: ColorValue("#FFFFFF"),
+        BackgroundAlt: ColorValue("#F3F2F1"),
+        TextPrimary: ColorValue("#252423"),
+        TextSecondary: ColorValue("#484644"),
+        Divider: ColorValue("#494848")
+    }
+);
+Set(
+    ThemeDark,
+    {
+        MainColor: ColorValue("#464775"),
+        AppBackground: ColorValue("#121314"),
+        Background: ColorValue("#23242a"),
+        BackgroundAlt: ColorValue("#323741"),
+        TextPrimary: ColorValue("#FFFFFF"),
+        TextSecondary: ColorValue("#C8C6C4"),
+        Divider: ColorValue("#494848")
+    }
+);
+Set(
+    CurrentTheme,
+    If(
+        Param("theme") = "default",
+        ThemeDefault,
+        ThemeDark
+    )
+)
