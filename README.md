@@ -1,6 +1,6 @@
 # Microsoft Power Apps Cookbook, Third Edition<br>
 by Eickhel Mendoza<br><br>
-<img src="" alt="cover" width="350"/>
+<img src="https://github.com/gaurgv/Microsoft-Power-Apps-Cookbook-Third-Edition/blob/main/cover.png" alt="cover" width="350"/>
 
 # Microsoft Power Apps Cookbook, Third Edition
 **Build user-friendly apps, troubleshoot challenges, and navigate the evolving Power Apps landscape**
